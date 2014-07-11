@@ -25,21 +25,21 @@ cheap freelancer, best freelancer, full time indian web developer, expert, rocks
 </head>
 <body>
 
-<div id="doc2" class="yui-t7">
+<div id="doc2" class="yui-t7" itemscope itemtype="http://schema.org/Person">
   <div id="inner">
 
     <div id="hd">
       <div class="yui-gc">
         <div class="yui-u first">
-          <h1>Paritosh Piplewar</h1>
-          <h2>Ruby On Rails Developer / Software engineer</h2>
+          <h1 itemprop="name">Paritosh Piplewar</h1>
+          <h2><span itemtype="jobTitle">Ruby On Rails Developer</span> / <span itemtype="jobTitle">Software engineer</span></h2>
         </div>
 
         <div class="yui-u">
           <div class="contact-info">
-            <h3><a id="pdf" href="/resume.pdf">Download PDF</a></h3>
-            <h3><a href="mailto:paritosh@passion8.co.in?subject=I'm%20interested%20in%20hiring%20you">paritosh@passion8.co.in</a></h3>
-            <h3>+91-9074504050</h3>
+            <h3><a itemprop="url" id="pdf" href="/resume.pdf">Download PDF</a></h3>
+            <h3><a itemprop="email" href="mailto:paritosh@passion8.co.in?subject=I'm%20interested%20in%20hiring%20you">paritosh@passion8.co.in</a></h3>
+            <h3 itemscope="telephone">+91-9074504050</h3>
           </div><!--// .contact-info -->
         </div>
       </div><!--// .yui-gc -->
@@ -55,43 +55,98 @@ cheap freelancer, best freelancer, full time indian web developer, expert, rocks
             </div>
             <div class="yui-u">
               <ul class="things-i-have-done">
-                <li>
+                <li itemprop="award">
                 Created many webapps with Ruby On Rails / PHP and jquery / knockout  .
                 </li>
-                <li>
+                <li  itemprop="award">
                 Scaled many websites which can now easily handle thousands of requests/sec.
                 </li>
-                <li>
+                <li  itemprop="award">
                 Crawed and Scraped many websites to get the main data.
                 </li>
-                <li class="no-down-border">
+                <li  itemprop="award" class="no-down-border">
                 Created a system which analyzie SEO ranking and take appropriate steps which adds thousands of dollar in the revenue. 
                 </li>
               </ul>
             </div>
           </div><!--// .yui-gf -->
 
-          <div class="yui-gf">
+          <div class="yui-gf" itemscope itemtype="http://schema.org/ItemList">
             <div class="yui-u first">
-              <h2>Skills</h2>
+              <h2 itemprop="name">Skills</h2>
             </div>
-            <div class="yui-u">
+            <div  class="yui-u">
               <ul class="talent">
-                <li><span class="skill">Ruby on Rails </span> -  4.5/5</li>
-                <li><span class="skill">Ruby </span> - 4.5/5</li>
-                <li class="last"><span class="skill">Postgresql / MySql </span> - 4.5/5</li>
+                <li>
+                  <span itemprop="itemListElement" class="skill">Ruby on Rails </span>
+                  -
+                  <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                    <span itemprop="ratingValue">4.5</span>
+                      /5
+                  </span>
+                </li>
+                <li>
+                  <span itemprop="itemListElement" class="skill">Ruby</span>
+                  -
+                  <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                    <span itemprop="ratingValue">4.5</span>
+                    /5
+                  </span>
+                </li>
+
+                <li class="last">
+                  <span class="skill">
+                    <span itemprop="itemListElement">Postgresql</span>
+                    /
+                    <span itemprop="itemListElement">MySql</span> 
+                  </span> -
+                  <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                    <span itemprop="ratingValue">4.5</span>/5
+                  </span>
+                </li>
               </ul>
 
               <ul class="talent">
-                <li><span class="skill">Javascript</span> - 4.2/5</li>
-                <li><span class="skill">Jquery</span> - 4.2/5</li>
-                <li class="last"><span class="skill">Knockout</span> - 4.2/5</li>
+                <li>
+                  <span itemprop="itemListElement" class="skill">Javascript</span>
+                  -
+                  <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                    <span itemprop="ratingValue">4.2</span>/5
+                  </span>
+                </li>
+                <li>
+                  <span itemprop="itemListElement" class="skill">Jquery</span> - 
+                  <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                    <span itemprop="ratingValue">4.2</span>/5
+                  </span>
+                </li>
+                <li class="last">
+                  <span itemprop="itemListElement" class="skill">Knockout</span> -
+                  <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                    <span itemprop="ratingValue">4.2</span>/5
+                  </span>
+                </li>
               </ul>
 
               <ul class="talent">
-                <li><span class="skill">SEO</span> - 4.5/5</li>
-                <li><span class="skill">HTML/XHTML/HAML</span> - 4.5/5</li>
-                <li class="last"><span class="skill">Server Management</span> - 3.5/5</li>
+                <li>
+                  <span itemprop="itemListElement" class="skill">SEO</span>
+                  -
+                  <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                    <span itemprop="ratingValue">4.5</span>/5
+                  </span>
+                </li>
+                <li>
+                  <span itemprop="itemListElement" class="skill">HTML/XHTML/HAML</span>
+                  -
+                  <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                    <span itemprop="ratingValue">4.5</span>/5
+                  </span>
+                </li>
+                <li class="last">
+                  <span itemprop="itemListElement" class="skill">Server Management</span> -
+                  <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"><span itemprop="ratingValue">3.5</span>/5</span>
+                </li>
               </ul>
             </div>
           </div><!--// .yui-gf-->
@@ -105,10 +160,13 @@ cheap freelancer, best freelancer, full time indian web developer, expert, rocks
             <div class="yui-u">
               <ul>
                 <li>
-                <span class="company">Freelancer</span> <span class="period">2010 - 2013</span>
+                <span itemprop="worksFor" class="company">
+                  Freelancer
+                </span>
+                <span class="period">2010 - 2013</span>
                 </li>
-                <li class="last">
-                <span class="company">Greentoe.com</span> <span class="period">2013 - Present</span>
+                <li  class="last">
+                <span class="company" itemprop="worksFor">Greentoe.com</span> <span class="period">2013 - Present</span>
                 </li>
               </ul>
 
@@ -121,7 +179,7 @@ cheap freelancer, best freelancer, full time indian web developer, expert, rocks
               <h2>Education</h2>
             </div>
             <div class="yui-u">
-              <h2>Jabalpur Engineer College</h2>
+              <h2 itemprop="alumniOf">Jabalpur Engineer College</h2>
               <h3>Bachelor Of Engineering (B.E) in <span class="subject-name">Computer Science</span> </h3>
               <h3>2009-2013</h3>
             </div>
@@ -131,22 +189,22 @@ cheap freelancer, best freelancer, full time indian web developer, expert, rocks
             <div class="yui-u first">
               <h2>External Links</h2>
             </div><!--// .yui-u -->
-            <div class="yui-u">
+            <div itemprop="url" itemscope itemtype="http://schema.org/URL" class="yui-u">
               <ul>
                 <li>
-                Github - <a class="links" rel="nofollow" href="http://www.github.com/passion8">http://www.github.com/passion8</a>
+                Github - <a class="links" rel="nofollow" itemprop="relatedLink" href="http://www.github.com/passion8">http://www.github.com/passion8</a>
                 </li>
                 <li>
-                StackOverflow - <a class="links" rel="nofollow" href="http://stackoverflow.com/users/1377943/paritosh-piplewar">http://stackoverflow.com/users/1377943/paritosh-piplewar</a>
+                StackOverflow - <a class="links" rel="nofollow" itemprop="relatedLink" href="http://stackoverflow.com/users/1377943/paritosh-piplewar">http://stackoverflow.com/users/1377943/paritosh-piplewar</a>
                 </li>
                 <li>
-                Blog - <a class="links" rel="nofollow" href="http://paritosh.passion8.co.in">paritosh.passion8.co.in</a>
+                Blog - <a class="links" rel="nofollow" itemprop="relatedLink" href="http://paritosh.passion8.co.in">paritosh.passion8.co.in</a>
                 </li>
                 <li>
-                Facebook - <a class="links" rel="nofollow" href="https://www.facebook.com/Paritoshparitosh57">https://www.facebook.com/Paritoshparitosh57</a>
+                Facebook - <a class="links" rel="nofollow" itemprop="relatedLink" href="https://www.facebook.com/Paritoshparitosh57">https://www.facebook.com/Paritoshparitosh57</a>
                 </li>
                 <li>
-                Twitter - <a class="links" rel="nofollow" href="https://twitter.com/ppiplewar">https://twitter.com/ppiplewar</a>
+                Twitter - <a class="links" rel="nofollow" itemprop="relatedLink" href="https://twitter.com/ppiplewar">https://twitter.com/ppiplewar</a>
                 </li>
               </ul>
 
@@ -160,23 +218,23 @@ cheap freelancer, best freelancer, full time indian web developer, expert, rocks
             <div class="yui-u">
 
               <div class="job">
-                <h2>Greentoe</h2>
-                <h3>Software Engineer</h3>
+                <h2 itemprop="worksFor">Greentoe</h2>
+                <h3 itemprop="jobTitle">Software Engineer</h3>
                 <p>First full-time Ruby On Rails Employee. Responsible for maintaining the site as well as fixing all bugs.</p>
               </div>
 
               <div class="job">
-                <h2>Asteria Hotels</h2>
-                <h3> Ruby On Rails Developer</h3>
+                <h2 itemprop="worksFor">Asteria Hotels</h2>
+                <h3 itemprop="jobTitle"> Ruby On Rails Developer</h3>
                 <p>Developed the multilingual customer facing website.</p>
               </div>
               <div class="job">
-                <h2>Lexity (Acquired by Yahoo)</h2>
-                <h3>Magento Extension</h3>
+                <h2 itemprop="worksFor">Lexity (Acquired by Yahoo)</h2>
+                <h3 itemprop="jobTitle">Magento Extension</h3>
                 <p>Developed the mangento extension which has been used by thousands of customers.</p>
               </div>
               <div class="job last">
-                <h2>Ruby Developer</h2>
+                <h2 itemprop="jobTitle">Ruby Developer</h2>
                 <h3>SEO Page Raking Analyser</h3>
                 <p> Developed the automated system which analysis the page and give rank as per algorithms and take appropriate steps to boost the SEO.</p>
               </div>
@@ -189,19 +247,19 @@ cheap freelancer, best freelancer, full time indian web developer, expert, rocks
             </div>
             <div class="yui-u">
               <ul id="feedbacks">
-                <li>
+                <li itemprop="award">
                 I had a pleasant experience working with Paritosh. Very committed to the work. Has a good work ethic. Looking forward to work with him again. - <span class="c-name"> Lexity</span>
                 </li>
-                <li>
+                <li itemprop="award">
                 Will use again for sure!  - <span class="c-name"> Scavengrnet</span>
                 </li>
-                <li>
+                <li itemprop="award">
                 Excellent experience. I fully recommend Paritosh as a good freelancer.- <span class="c-name">Georanker</span>
                 </li>
                 <li>
                 He is a rockstar - <span class="c-name">Greentoe</span>
                 </li>
-                <li>
+                <li itemprop="award">
                 Pretty satisfied with his work. Great communication skills - <span class="c-name">Asteria Hotels</span>
                 </li>
               </ul>
